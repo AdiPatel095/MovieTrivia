@@ -1,53 +1,79 @@
-:root{
-    --restart-height: 10vh;
-    --restart-width: var(--restart-height);
-    --body-bk-color: #800020;
-    --button-bk-color: #F3DFA2;
-    --score-bk-color: #7EBDC2;
-    --cat-bk-color: #964B00;
-    
-}
 
+:root
+    {
 
-h2{
-    font-size: 4rem;
-    
-}
-body{
-    background-color: var(--body-bk-color)
-}
+--nav-color:#F3DFA2;
+--background-color:#800020;
 
-.button{
-    background-color: var(--button-bk-color);
-}
-
-.scoreBackground{
-    background-color: var(--score-bk-color);
-}
-
-.lightText{
-    color: white;
-}
-
-.catBackground{
-    background-color: var(--cat-bk-color);
-}
-
-@media screen and (min-width: 768px){
-    .catBackground{
-        height: 500px;
     }
+#displayinput{
+display: flex;
+justify-content: center;
+      align-items: center;
+
+
 }
 
-#leaderboardTable{
-    margin-top: 200px;
+#buttonparent
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+
 }
 
-#restartCircle{
-    height: var(--restart-height);
-    width: var(--restart-width);
+
+#button {
+margin-top: 3%;
+margin-right: 30%;
+    padding-right:40px ;
+    padding-left:40px ;
+    padding-top: 20px;
+    padding-bottom:20px;
+    
+
+flex: 0 0 20%;
+
+
 }
 
-#squareRestart{
-    height: 5vh;
+#flex-username {
+
+flex: 0 0 30%;
+
+}
+#imgparant{
+display: flex;
+    justify-content: center;
+    margin: 3%;
+
+}
+
+
+#imagesize {
+max-width: 30%;
+    flex: 1 1 30%;
+    border-radius: 20px;
+
+
+}
+
+#nav-color{
+background-color: var(--nav-color);
+
+}
+
+li{
+    display: flex;
+   margin: 1%;
+   flex-direction: row; 
+   
+
+}
+
+body{
+
+    background-color: var(--background-color);
+    transition: all 1.5s ease;
 }
