@@ -1,0 +1,79 @@
+
+:root
+    {
+
+--nav-color:#F3DFA2;
+--background-color:#800020;
+
+    }
+#displayinput{
+display: flex;
+justify-content: center;
+      align-items: center;
+
+
+}
+
+#buttonparent
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+
+}
+
+
+#button {
+margin-top: 3%;
+margin-right: 30%;
+    padding-right:40px ;
+    padding-left:40px ;
+    padding-top: 20px;
+    padding-bottom:20px;
+    
+
+flex: 0 0 20%;
+
+
+}
+
+#flex-username {
+
+flex: 0 0 30%;
+
+}
+#imgparant{
+display: flex;
+    justify-content: center;
+    margin: 3%;
+
+}
+
+
+#imagesize {
+max-width: 30%;
+    flex: 1 1 30%;
+    border-radius: 20px;
+
+
+}
+
+#nav-color{
+background-color: var(--nav-color);
+
+}
+
+li{
+    display: flex;
+   margin: 1%;
+   flex-direction: row; 
+   
+
+}
+
+body{
+
+    background-color: var(--background-color);
+    transition: all 1.5s ease;
+}
