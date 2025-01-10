@@ -1,0 +1,53 @@
+:root{
+    --restart-height: 10vh;
+    --restart-width: var(--restart-height);
+    --body-bk-color: #800020;
+    --button-bk-color: #F3DFA2;
+    --score-bk-color: #7EBDC2;
+    --cat-bk-color: #964B00;
+    
+}
+
+
+h2{
+    font-size: 4rem;
+    
+}
+body{
+    background-color: var(--body-bk-color)
+}
+
+.button{
+    background-color: var(--button-bk-color);
+}
+
+.scoreBackground{
+    background-color: var(--score-bk-color);
+}
+
+.lightText{
+    color: white;
+}
+
+.catBackground{
+    background-color: var(--cat-bk-color);
+}
+
+@media screen and (min-width: 768px){
+    .catBackground{
+        height: 500px;
+    }
+}
+
+#leaderboardTable{
+    margin-top: 200px;
+}
+
+#restartCircle{
+    height: var(--restart-height);
+    width: var(--restart-width);
+}
+
+#squareRestart{
+    height: 5vh;
+}
