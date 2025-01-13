@@ -1,13 +1,93 @@
-body {
-
-    background-color: var(--background-color);
+#buttonparentPg2{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#ButtonPg2:hover{
+    background-color: orangered;
+    
+    }
+#ButtonPg2{
+min-width: 400px;
+background-color: rgb(255, 153, 0);
 }
 
-#imagesize {
-max-width: 10%;
+
+#imagesizePg2{
+max-width:15%;
     flex: 1 1 30%;
     border-radius: 20px;
 
-
 }
+
+#imgparantPg2{
+    display: flex;
+        justify-content: center;
+        margin: 2%;
+    
+    }
+
+#to-do{
+background-color: #7EBDC2;
+border-radius: 20px;
+margin-top:3% ;
+margin-bottom: 3%;
+margin-left: 20%;
+margin-right:20% ;
+}
+
+#the-header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    text-align: center;
+    color:#805E73;
+  
+}
+#display-forli
+{    
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+
+li {
+
+   color:#805E73;
+   justify-content: center;
+}
+
+
+@media screen and (max-width: 776px)
+
+{
+
+    #imagesizePg2 {
+    
+    transition: all 1.5s ease;
+        max-width: 80%;
+        flex: 1 1 30%;
+        justify-content: center;
+
+
+    }
+
+    
+
+    #ButtonPg2{
+        min-width: 200px;
+        
+        }
+    
+
+    }
+
+    
+        
+
+
