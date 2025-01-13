@@ -43,11 +43,15 @@ body{
     margin-top: 200px;
 }
 
-#restartCircle{
+.circle{
     height: var(--restart-height);
     width: var(--restart-width);
 }
 
-#squareRestart{
+.square{
     height: 5vh;
+}
+
+.ul .li{
+    font-size: 30px;
 }
