@@ -27,7 +27,7 @@ const usernameHandle = function () {
     console.log(player);
 
     localStorage.setItem('submittedForm', JSON.stringify(player));  
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "./page2.html";
     }
 };
 
