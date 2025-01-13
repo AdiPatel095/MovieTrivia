@@ -3,7 +3,8 @@ const inputedValue = document.querySelector('input');
 const placehoulder = document.querySelector('#flex-username')
 let player = {
     username: '',
-    score: 0
+    score: 0,
+    category: "category"
 };
 
 let category = [];
@@ -26,6 +27,7 @@ const usernameHandle = function () {
     console.log(player);
 
     localStorage.setItem('submittedForm', JSON.stringify(player));  
+    window.location.href = "./page2.html";
     }
 };
 
