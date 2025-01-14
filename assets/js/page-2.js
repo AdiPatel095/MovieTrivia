@@ -2,7 +2,7 @@ const button2 = document.getElementById('ButtonPg2');
 
 
 const redicrct = function () {
-    window.location.href = "page-3.html";
+    window.location.href = "save-questions.html";
   }
   
   button2.addEventListener('click', redicrct);

@@ -1,4 +1,4 @@
-let score = 0;
+let score = JSON.parse(localStorage.getItem('finalScore')) || 0;
 const circleButton = document.querySelector("#restartCircle")
 const squareButton = document.querySelector("#restartSquare")
 const circleScoreHolder = document.querySelector('#CircleFinalScore')
@@ -47,11 +47,8 @@ const readScores = function(){
 const updateCategoryTable = function(categoryScores, categoryIdPrefix){
     categoryScores.forEach((item, index) => {
         const listItemUsernameId = `cat${categoryIdPrefix}_1_${index +1}`;
-        const listUsernameItem = document.getElementById(listItemUsernameId);
 
         const listItemScoreId = `cat${categoryIdPrefix}_2_${index +1}`;
-        const listScoreItem = document.getElementById(listItemScoreId);
-        
         document.getElementById(listItemUsernameId).textContent = item.username
         document.getElementById(listItemScoreId).textContent = item.score
     });
