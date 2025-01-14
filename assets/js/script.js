@@ -26,7 +26,8 @@ const usernameHandle = function () {
 
     console.log(player);
 
-    localStorage.setItem('submittedForm', JSON.stringify(player));  
+    localStorage.setItem('submittedForm', JSON.stringify(player));
+    localStorage.setItem('username', player.username)  
     window.location.href = "page-2.html";
     }
 };

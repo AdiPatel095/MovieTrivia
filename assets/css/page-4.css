@@ -55,3 +55,8 @@ body{
 .ul .li{
     font-size: 30px;
 }
+
+#nav-color{
+    background-color: var(--nav-color);
+    
+    }
