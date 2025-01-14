@@ -1,53 +1,46 @@
-
-:root
-    {
-
---nav-color:#F3DFA2;
---background-color:#800020;
-
-    }
-#displayinput{
-display: flex;
-justify-content: center;
-      align-items: center;
-
+:root {
+    --nav-color: #F3DFA2;
+    --background-color: #800020;
 
 }
 
-#buttonparent
-{
+#displayinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#buttonparent {
     display: flex;
     justify-content: right;
     align-items: center;
-    
 
 }
 
-#button:hover{
-background-color: orangered;
+#button:hover {
+    background-color: orangered;
 
 }
+
 #button {
-margin-top: 3%;
-margin-right: 30%;
-    padding-right:40px ;
-    padding-left:40px ;
+    margin-top: 3%;
+    margin-right: 30%;
+    padding-right: 40px;
+    padding-left: 40px;
     padding-top: 20px;
-    padding-bottom:20px;
-    
-
-flex: 0 0 20%;
-
+    padding-bottom: 20px;
+    flex: 0 0 20%;
 
 }
 
 #flex-username {
-
-flex: 0 0 30%;
+    flex: 0 0 30%;
 
 }
-#imgparant{
-display: flex;
+
+#imgparant {
+    display: flex;
     justify-content: center;
     margin: 3%;
 
@@ -55,39 +48,37 @@ display: flex;
 
 
 #imagesize {
-max-width: 30%;
+    max-width: 30%;
     flex: 1 1 30%;
     border-radius: 20px;
 
 
 }
 
-#nav-color{
-background-color: var(--nav-color);
+#nav-color {
+    background-color: var(--nav-color);
 
 }
 
-li{
+li {
     display: flex;
-   margin: 1%;
-   flex-direction: row; 
-   
+    margin: 1%;
+    flex-direction: row;
+
 
 }
 
-body{
+body {
 
     background-color: var(--background-color);
     transition: all 1.5s ease;
 }
 
-@media screen and (max-width: 776px)
-
-{
+@media screen and (max-width: 776px) {
 
     #imagesize {
-    
-    transition: all 1.5s ease;
+
+        transition: all 1.5s ease;
         max-width: 80%;
         flex: 1 1 30%;
         justify-content: center;
@@ -97,18 +88,18 @@ body{
 
     #button {
 
-flex: 1 1 30%;
+        flex: 1 1 30%;
 
-    padding-top: 10px;
-    padding-bottom:10px;
-    margin-left: 30%;
-    
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 30%;
+
 
     }
 
 
-    #flex-username{
-min-width:400px ;
+    #flex-username {
+        min-width: 400px;
 
 
     }
@@ -116,9 +107,9 @@ min-width:400px ;
     #displayinput {
         display: flex;
         justify-content: center;
-             max-width:100%;
-       
-        
-}
-    
+        max-width: 100%;
+
+
+    }
+
 }

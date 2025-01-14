@@ -63,4 +63,4 @@ answer3Element.addEventListener('click', () => handleAnswerClick(2));
 answer4Element.addEventListener('click', () => handleAnswerClick(3));
 
 
-//displayQuestion();
+displayQuestion();
